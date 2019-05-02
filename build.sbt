@@ -1,5 +1,5 @@
-name := "akka-tutorial"
-description := "Akka Tutorial"
+name := "akka-pi-tutorial"
+description := "Akka PI Tutorial"
 version := "1.0.0"
 scalaVersion := "2.12.8"
 scalacOptions ++= Seq("-deprecation", "-unchecked", "-feature", "-language:_")
