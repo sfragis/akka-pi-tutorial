@@ -7,6 +7,7 @@ import scala.util.Random
 /**
   * Spawns some [[tutorial.PiActor PiActor]]s and calculates PI.
   */
+//noinspection ActorMutableStateInspection
 class HubActor() extends Actor {
   private val random = new Random()
 
