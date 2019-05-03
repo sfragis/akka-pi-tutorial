@@ -8,7 +8,7 @@ PI can be approximated by generating a uniformly distributed number of `x,y` coo
 # Requirements
 
 * Java JDK 1.8 or greater (JDK 11 is fine): https://jdk.java.net/java-se-ri/11
-* Sbt (Scala Build Tool): https://www.scala-sbt.org/
+* Sbt (Scala Build Tool), version 1.2.x or greater: https://www.scala-sbt.org/
 
 Uncompress the toools somewhere.
 
@@ -18,7 +18,6 @@ Make sure these paths are in your `PATH` environment variable:
 
 
 # Build
-Use Scala 2.12.x and SBT 1.2.x or greater.
 
 ```bash
 sbt compile
