@@ -5,8 +5,8 @@ import akka.actor.{Actor, Props}
 import scala.util.Random
 
 /**
-  *
-  * @author Fabio G. Strozzi
+  * Generates a random number of coordinates between 0 and 1 and
+  * returns the number of those inside the circle.
   */
 class PiActor(seed: Int) extends Actor {
   private val random = new Random(seed)

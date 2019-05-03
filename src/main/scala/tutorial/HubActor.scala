@@ -4,6 +4,9 @@ import akka.actor.{Actor, ActorRef, Props}
 
 import scala.util.Random
 
+/**
+  * Spawns some [[tutorial.PiActor PiActor]]s and calculates PI.
+  */
 class HubActor() extends Actor {
   private val random = new Random()
 
